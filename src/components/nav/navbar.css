@@ -1,0 +1,48 @@
+.navContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    color:rgb(207,191,166);
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size:16px
+}
+
+.logo {
+    width:50px;
+    height:50px;
+}
+
+
+ul {
+    list-style: none;
+    padding:10px 10px;
+    margin:0;
+
+}
+
+li {
+    margin-right:40px;
+    letter-spacing: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color:inherit;
+}
+
+li a:hover {
+    color: rgb(215,187,142);
+}
+
+
