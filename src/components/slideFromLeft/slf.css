@@ -1,0 +1,41 @@
+.sfl-container {
+    margin-left: 100px;
+    height: 600px;
+    position: relative;
+    margin-bottom:50px;
+}
+
+.colorPanel {
+    min-height:200px;
+    max-height: 600px;
+    height:100%;
+    max-width: 70%;
+    min-width:50%;
+    width:100%;
+    background-color: rgb(215,187,142);
+    float: right;
+}
+
+.sfl-image {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.sfl-image img {
+    border:15px solid white;
+    width:90%;
+}
+
+.title {
+    padding:10px;
+    color:white;
+    font-size:30px;
+}
+
+.sf1-button{
+    position:absolute;
+    top:50%;
+    left:80%;
+    transform: translate(-50%, -50%);
+}

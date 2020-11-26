@@ -14,7 +14,6 @@ const App = () => {
   return (
     <div>
       <Suspense fallback={null}>
-        <img className="TBSLogo" src={Logo} />
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
