@@ -13,23 +13,22 @@ const variants = {
         y: 50,
         opacity: 0,
         transition: {
-            y: { stiffness: 1000 }
+            y: { stiffness: 600 }
         }
     }
 };
 
-const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
+const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF", "#4400FF", "#4400FF", "#4400FF"];
 
-export const MenuItem = ({ i }) => {
-    const style = { border: `2px solid ${colors[i]}` };
+export const MenuItem = ({ i, title, link, }) => {
     return (
         <motion.li
             variants={variants}
-            whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
         >
-            <div className="icon-placeholder" style={style} />
-            <div className="text-placeholder" style={style} />
+            <div className="text-placeholder">
+                <a href={link}>{title}</a>
+            </div>
         </motion.li>
     );
 };

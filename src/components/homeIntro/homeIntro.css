@@ -1,0 +1,60 @@
+.divje {
+    /* padding:20px; */
+    background-color:black;
+    color:white;
+    margin: 0 0 10px 0;
+    height:300px;
+}
+
+.sec1 {
+    position: relative;
+    height:800px;
+}
+
+.imagge {
+    width: 90%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:20px solid white;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    animation:1s ease-out slideIn;
+}
+
+.homeIntro {
+    background: linear-gradient(to bottom, black 0%,black 50%,#000000 50%,white 50%,white 100%);
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:auto;
+}
+
+.be {
+    font-size: 70px;
+    font-weight: bold;
+    margin: auto 0;
+    display: block;
+    text-align: center;
+    padding: 0px 20px 0 20px;
+    width: 95%;
+}
+
+video {
+    transform-origin:bottom left;
+    width:100%;
+    object-fit: cover;
+}
+
+@keyframes slideIn {
+    0% {
+        transform:translate(-50%, 100%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}

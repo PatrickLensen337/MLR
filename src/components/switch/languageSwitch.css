@@ -1,7 +1,6 @@
 .switcher {
     display:flex;
-    background:black;
-    color:white;
+    color:black;
     padding:20px 20px 20px 0;
     justify-content: flex-end;
     position: relative;
@@ -13,4 +12,38 @@
     background-color: black;
     border:none;
     color:white;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked+label{
+    text-decoration: underline;
+}
+.languageSwitchLabel{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.languageSwitchLabel:hover {
+    color:rgb(215,187,142);
+    cursor: pointer;
+}
+
+.switcher {
+    justify-self: flex-end;
+    margin-right:auto;
+    display:block;
+}
+
+@media (max-width:700px){
+    .switcher {
+    display:flex;
+    color:black;
+    padding:20px 20px 20px 0;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+}
 }

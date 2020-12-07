@@ -3,12 +3,13 @@ import { useRef } from "react";
 import { motion, useCycle } from "framer-motion";
 import useDimensions from "./items/use-dimensions";
 import { MenuToggle } from "./items/MenuToggle";
-import { Navigation } from "./items/Navigation";
+import Navigation from "./items/Navigation";
+import Logo from '../../../logo.svg'
 import './mobilenav.css'
 
 const sidebar = {
     open: (height = 1000) => ({
-        clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
+        clipPath: `circle(${height * 2 + 200}px at 335px 40px)`,
         transition: {
             type: "spring",
             stiffness: 20,
@@ -16,7 +17,7 @@ const sidebar = {
         }
     }),
     closed: {
-        clipPath: "circle(30px at 40px 40px)",
+        clipPath: "circle(0px at 380px 0px)",
         transition: {
             delay: 0.5,
             type: "spring",
@@ -26,7 +27,7 @@ const sidebar = {
     }
 };
 
-const Example = () => {
+const MobileNav = () => {
     const [isOpen, toggleOpen] = useCycle(false, true);
     const containerRef = useRef(null);
     const { height } = useDimensions(containerRef);
@@ -45,4 +46,4 @@ const Example = () => {
     );
 };
 
-export default Example;
+export default MobileNav;
