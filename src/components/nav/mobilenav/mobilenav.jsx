@@ -4,7 +4,6 @@ import { motion, useCycle } from "framer-motion";
 import useDimensions from "./items/use-dimensions";
 import { MenuToggle } from "./items/MenuToggle";
 import Navigation from "./items/Navigation";
-import Logo from '../../../logo.svg'
 import './mobilenav.css'
 
 const sidebar = {

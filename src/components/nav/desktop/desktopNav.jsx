@@ -1,6 +1,4 @@
 import './desktopNav.css'
-import { ReactComponent as TBSLogo } from '../../../logo.svg';
-import { useMediaQuery } from 'react-responsive'
 import LanguageSelector from '../../switch/languageSwitch'
 import { Link } from 'react-router-dom'
 import { withTranslation } from 'react-i18next'

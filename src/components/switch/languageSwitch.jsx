@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import './languageSwitch.css';
 
 const LanguageSelector = () => {
-    const { t, i18n } = useTranslation()
+    const { i18n } = useTranslation()
 
     const changeLanguage = (event) => {
         i18n.changeLanguage(event.target.value)
@@ -14,7 +14,7 @@ const LanguageSelector = () => {
 
     return (
         <div onChange={changeLanguage} className="switcher">
-            <input type="radio" id="switchDutch" name="switchDutch" value="nl-nl" name="language" defaultChecked />
+            <input type="radio" id="switchDutch" value="nl-nl" name="language" defaultChecked />
             <label className="languageSwitchLabel" for="switchDutch">NL</label>
             <input type="radio" id="switchEnglish" value="en" name="language" />
             <label className="languageSwitchLabel" for="switchEnglish">EN</label>

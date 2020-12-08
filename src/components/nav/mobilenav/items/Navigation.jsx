@@ -38,7 +38,7 @@ const variantsSwitch = {
 
 
 const Navigation = () => {
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
     const navLinks = [
         {
             name: `${t('homeNavLink.label')}`,
@@ -74,7 +74,7 @@ const Navigation = () => {
         <motion.ul variants={variants}>
             <motion.li
                 variants={variantsSwitch}>
-                <img className="TBSLogo" src={Logo} />
+                <img className="TBSLogo" src={Logo} alt='logo' />
             </motion.li>
 
             {navLinks.map(i => (

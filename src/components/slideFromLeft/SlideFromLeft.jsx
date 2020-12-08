@@ -1,13 +1,20 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer'
 import { withTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import './SlideFromLeft.css'
 import { ReactComponent as ChevronRight } from '../../assets/svg/chevronRight.svg'
 
 
+
 const SlideFromLeft = ({ t, children, title, color, image, buttonlink, portrait, showbutton, minheight, ...otherProps }) => {
     const isPortrait = portrait;
     const showButton = showbutton;
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.40,
+    });
+
     return (
         <div>
             <div className="slideFromLeft-container">
@@ -16,26 +23,30 @@ const SlideFromLeft = ({ t, children, title, color, image, buttonlink, portrait,
                     style={{ minHeight: `${minheight}px` }}
                 >
                     <motion.div
+                        ref={ref}
                         className="slideFromLeft-two"
-                        initial={{ scale: 1.2, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ ease: "easeOut", duration: 1 }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: inView ? 1 : 0 }}
+                        transition={{ ease: "easeOut", duration: 1.7 }}
                     >
-                        <img class={isPortrait ? "port" : "land"} src={image} />
+                        <img className={isPortrait ? "port" : "land"} src={image} alt={title} />
 
                     </motion.div>
                     <motion.div
-                        initial={{ x: -1000, opacity: 1 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
-                        style={{ backgroundColor: `${color}` }}
+                        ref={ref}
+                        style={{
+                            backgroundColor: `${color}`,
+                        }}
                         className='slideFromLeft-four'
+                        initial={{ x: -500, opacity: 0 }}
+                        animate={{ x: inView ? 0 : -100, opacity: inView ? 1 : 0 }}
+                        transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
                     >
                         <div className="slideFromLeft-content slideFromLeft-title">{title}</div>
                         <div
                             className={showButton ? "slideFromLeft-content slideFromLeft-button" : "hideButton"}
                         >
-                            <ChevronRight /> <a href={buttonlink}>{t('readMore.label')}</a>
+                            <ChevronRight /><a href={buttonlink}>{t('readMore.label')}</a>
                         </div>
                     </motion.div>
                 </div>
