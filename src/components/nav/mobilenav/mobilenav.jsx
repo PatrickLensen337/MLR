@@ -18,7 +18,7 @@ const sidebar = {
     closed: {
         clipPath: "circle(0px at 380px 0px)",
         transition: {
-            delay: 0.5,
+            delay: 0.2,
             type: "spring",
             stiffness: 400,
             damping: 40
@@ -44,5 +44,10 @@ const MobileNav = () => {
         </motion.nav>
     );
 };
+document.querySelectorAll('.mobNavContainer ul li').forEach(item => {
+    item.addEventListener('click', function () {
+        document.querySelector('.mobNavContainer button').click()
+    })
+})
 
 export default MobileNav;

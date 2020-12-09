@@ -81,6 +81,7 @@ const Navigation = () => {
                 <MenuItem i={i.name} key={i.name} title={i.name} link={i.link} />
             ))}
             <motion.li
+                className="languageMob"
                 variants={variantsSwitch}><LanguageSelector /></motion.li>
         </motion.ul>
     )

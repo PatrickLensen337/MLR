@@ -33,8 +33,8 @@ button {
   -ms-user-select: none;
   cursor: pointer;
   position: absolute;
-  top: 18px;
-  right: 20px;
+  top: 28px;
+  right: 40px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -50,12 +50,12 @@ li {
 ul {
   position: absolute;
   top: 0px;
-  width: 90%;
+  left:0;
+  width: 100%;
 }
 
 li  {
   list-style: none;
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -65,13 +65,49 @@ li a {
   color:black
 }
 
-.text-placeholder {
+.menuText {
+  font-family:'FuturaMedium';
+  text-transform: uppercase;
+  letter-spacing: 5px;
   width: 200px;
   height: 20px;
   flex: 1;
+  font-size:17px;
   color:black;
-  padding-bottom:10px;
-  border-bottom:1px solid #777777;
+  padding:13px;
+  border-top:2px solid rgb(207,191,166);
+}
+
+.mobNavContainer ul li:nth-last-child(2) .menuText{
+  border-bottom:2px solid rgb(207,191,166);
+  
+}
+
+.languageMob {
+      color: black;
+    width: 100vw;
+}
+
+.languageMob .switcher .languageSwitchLabel {
+  padding: 3px 13px;
+    font-size: 17px;
+    letter-spacing: 5px;
+    width: 100vw;
+    border-top:2px solid rgb(207,191,166);
+    border-bottom:2px solid rgb(207,191,166);
+}
+
+
+input[type="radio"]:checked+label {
+    text-decoration: none;
+    background-color:rgb(207,191,166);
+    color:white;
+}
+
+
+
+ul:last-child {
+  border-bottom: 2px solid rgb(207,191,166);
 }
 
 .refresh {
@@ -88,16 +124,17 @@ li a {
   align-items: center;
   cursor: pointer;
 }
-  .navContainer{
-    width: 100%;
-    position: relative;
-    background: #000;
-    height: 76px !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0px 0 10px;
+
+.navContainer{
+  width: 100%;
+  position: relative;
+  background: #000;
+  height: 100px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px 0 10px;
 }
 
 .TBSLogo{

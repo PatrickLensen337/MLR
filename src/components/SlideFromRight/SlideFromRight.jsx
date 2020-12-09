@@ -3,9 +3,10 @@ import { useInView } from 'react-intersection-observer'
 import { withTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import './SlideFromRight.css'
+import { Link } from 'react-router-dom'
 import { ReactComponent as ChevronRight } from '../../assets/svg/chevronRight.svg'
 
-const SlideFromRight = ({ t, children, title, color, image, buttonlink, portrait, showbutton, ...otherProps }) => {
+const SlideFromRight = ({ t, children, title, color, image, buttonlink, portrait, showbutton, subtitle, ...otherProps }) => {
     const isPortrait = portrait;
     const showButton = showbutton;
     const [ref, inView] = useInView({
@@ -35,11 +36,12 @@ const SlideFromRight = ({ t, children, title, color, image, buttonlink, portrait
                         transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
                     >
                         <div className="slideFromRight-content slideFromRight-title">{title}</div>
+                        <div className="slideFromRight-content slideFromRight-subtitle">{subtitle}</div>
                         <div
                             className={showButton ? "slideFromLeft-content slideFromLeft-button" : "hideButton"}
 
                         >
-                            <ChevronRight /> <a href={buttonlink}>{t('readMore.label')}</a>
+                            <ChevronRight /> <Link to={buttonlink}>{t('readMore.label')}</Link>
                         </div>
                     </motion.div>
                 </div>

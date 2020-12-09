@@ -1,0 +1,23 @@
+.plLeftComponent {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    height:50vh;
+
+}
+
+.een {
+    background-color:black;
+    height:35vh;
+    width:70vw;
+}
+
+.twee {
+    background-color:red;
+    height:38vh;
+    width:60vw;
+    border:8px solid white;
+    position: absolute;
+    right:10vw;
+    top:14vh;
+}

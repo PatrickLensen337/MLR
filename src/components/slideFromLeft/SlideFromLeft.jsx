@@ -4,10 +4,11 @@ import { withTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import './SlideFromLeft.css'
 import { ReactComponent as ChevronRight } from '../../assets/svg/chevronRight.svg'
+import { Link } from 'react-router-dom'
 
 
 
-const SlideFromLeft = ({ t, children, title, color, image, buttonlink, portrait, showbutton, minheight, ...otherProps }) => {
+const SlideFromLeft = ({ t, children, title, color, image, buttonlink, portrait, showbutton, minheight, subtitle, ...otherProps }) => {
     const isPortrait = portrait;
     const showButton = showbutton;
     const [ref, inView] = useInView({
@@ -43,10 +44,11 @@ const SlideFromLeft = ({ t, children, title, color, image, buttonlink, portrait,
                         transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
                     >
                         <div className="slideFromLeft-content slideFromLeft-title">{title}</div>
+                        <div className="slideFromLeft-content slideFromLeft-subtitle">{subtitle}</div>
                         <div
                             className={showButton ? "slideFromLeft-content slideFromLeft-button" : "hideButton"}
                         >
-                            <ChevronRight /><a href={buttonlink}>{t('readMore.label')}</a>
+                            <ChevronRight /> <Link to={buttonlink}>{t('readMore.label')}</Link>
                         </div>
                     </motion.div>
                 </div>

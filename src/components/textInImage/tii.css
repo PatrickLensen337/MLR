@@ -1,0 +1,33 @@
+.tii-container {
+    position:relative;
+    margin: 50px 0;
+}
+
+.tii-imageBack img {
+    object-fit: cover;
+    width:100%
+}
+
+.tii-textContainer {
+    position: absolute;
+    width:80%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:left;
+    background-color:rgb(207,191,166);
+    border:7px solid white;
+    padding:20px 12px;
+    font-size:13px;
+}
+
+.tii-title {
+    font-family:'FuturaBold';
+    text-transform:uppercase;
+}
+
+.tii-text {
+    font-family:'FuturaMedium';
+    margin-top:5px;
+    padding:0 5px 0 0;
+}

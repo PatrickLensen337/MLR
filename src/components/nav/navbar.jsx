@@ -31,7 +31,7 @@ const Navbar = ({ t }) => {
                 {isTabletOrMobileDevice &&
                     <div>
                         <div>
-                            <TBSLogo style={{ width: '50px', height: '60px', fill: 'white' }} />
+                            <TBSLogo className="tbsLogoSvg" style={{ width: '50px', height: '60px', fill: 'white', padding: '0 19px' }} />
                         </div>
                         <div className="mobNavContainer">
                             <MobileNav />
