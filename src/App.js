@@ -9,6 +9,7 @@ import PrivateLabel from './pages/privateLabel/privateLabel'
 import AboutUs from './pages/about/about'
 import Careers from './pages/career/career'
 import Contact from './pages/contact/contact'
+import Play from './pages/play/play'
 import { Route, Switch, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence, useAnimation } from 'framer-motion'
 import { ReactComponent as TBSLogo } from './logo.svg'
@@ -28,6 +29,7 @@ const App = () => {
         <Route exact path='/about' component={AboutUs} />
         <Route exact path='/career' component={Careers} />
         <Route exact path='/contact' component={Contact} />
+        <Route exact path='/play' component={Play} />
       </Switch>
     </Suspense>
   )
