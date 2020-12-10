@@ -1,9 +1,9 @@
-import './plLeftComponent.css'
+import './plRightComponent.css'
 import { withTranslation } from 'react-i18next'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 
-const PlLeftComponent = ({ title, list, image, color }) => {
+const PlRightComponent = ({ title, list, image, color }) => {
     const [ref, inView] = useInView({
         triggerOnce: true,
         threshold: 0.40,
@@ -20,7 +20,7 @@ const PlLeftComponent = ({ title, list, image, color }) => {
     })
 
     return (
-        <div className="plLeftComponent">
+        <div className="plRightComponent">
             <motion.div
                 ref={ref}
                 className="een"
@@ -30,10 +30,10 @@ const PlLeftComponent = ({ title, list, image, color }) => {
                 transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
             >
 
-                <div className="plLeftComponent-title">
+                <div className="plRightComponent-title">
                     {title}
                 </div>
-                <div className="plLeftComponent-list">
+                <div className="plRightComponent-list">
                     {y}
                 </div>
             </motion.div>
@@ -45,7 +45,7 @@ const PlLeftComponent = ({ title, list, image, color }) => {
                 animate={{ x: inView ? 0 : 100, opacity: inView ? 1 : 0 }}
                 transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
             >
-                <div className="plLeftImage">
+                <div className="plRightImage">
                     <img src={image} />
                 </div>
             </motion.div>
@@ -53,4 +53,4 @@ const PlLeftComponent = ({ title, list, image, color }) => {
     )
 }
 
-export default withTranslation()(PlLeftComponent)
+export default withTranslation()(PlRightComponent)

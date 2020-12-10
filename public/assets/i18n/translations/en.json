@@ -16,5 +16,74 @@
     "serviceSubtitle2.label": "Brand, retail & licentie-productions",
     "serviceText2.label": "If desired, we come up with innovative private label concepts & productions for retailers and brands, including collabs with talents. We take the time-consuming process of creation, product development, sourcing, production and distribution of new products off your hands. We have built up our private label expertise and licensed productions within the sectors  jewelery, fashion, body & swimwear, beauty & fragrance, personal care, home essentials and beauty & fashion accessories.",
     "serviceSubtitle3.label": "Premium Concepts",
-    "serviceText3.label": "We devise and produce creative give-aways concepts to stimulate sales for our clients. But also business-to-business gifts, gifts for loyalty programs and private label productions for events. Within the concepts, we focus on the target audience, budget, timing and the tailor-made realizations of the premiums."
+    "serviceText3.label": "We devise and produce creative give-aways concepts to stimulate sales for our clients. But also business-to-business gifts, gifts for loyalty programs and private label productions for events. Within the concepts, we focus on the target audience, budget, timing and the tailor-made realizations of the premiums.",
+    "privateLabelJewelleryList.label": [
+        "Bracelets ",
+        "Necklaces",
+        "Rings",
+        "fine jewellery",
+        "statement earrings",
+        "EAR CUFFS",
+        "anklet bracelets",
+        "charms",
+        "watches"
+    ],
+    "privateLabelJewelleryTitle.label": "Jewellery",
+    "privateLabelFashionTitle.label": "Fashion",
+    "privateLabelFashionList.label": [
+        "Dresses",
+        "Skirts",
+        "tops",
+        "Shirts and blouses",
+        "sweaters and cardigans",
+        "pants",
+        "jackets",
+        "blazers",
+        "bags",
+        "belts"
+    ],
+    "privateLabelBeautyTitle.label": "Beauty",
+    "privateLabelBeautyList.label": [
+        "perfume",
+        "make up",
+        "care",
+        "bath & body",
+        "supplements ",
+        "beauty accessoires"
+    ],
+    "privateLabelSwimwearTitle.label": "body & swimwear",
+    "privateLabelSwimwearList.label": [
+        "homewear",
+        "tops",
+        "shorts",
+        "bodysuits",
+        "hotpants",
+        "sleepingmasks",
+        "swimsuits ",
+        "bikini's"
+    ],
+    "privateLabelHomeTitle.label": "home essentials",
+    "privateLabelHomeList.label": [
+        "Textile",
+        "scented candles",
+        "home fragances",
+        "storageboxes",
+        "pillows",
+        "plaids",
+        "picture frames",
+        "toiletbags",
+        "towels"
+    ],
+    "privateLabelBrandedTitle.label": "branded verpakkingen",
+    "privateLabelBrandedList.label": [
+        "Giftboxes in different materials",
+        "velvet and burlap bags",
+        "displays including product & ambiance photograpy"
+    ],
+    "aboutUsTitle.label": "About us",
+    "aboutUsText.label": "The brand studio is the private label division of MY Jewellery. Sharon Hilgers (founder MY Jewelery) is creative director and has a strong sense of commercially successful trends & productions. Together we form a complementary team consisting of creative specialists in every field of jewelery, beauty & frangrance, fashion, body & swimwear, home essentials and accessories. Our projectmanagers take care of the entire process and ensure well-streamlined and high-quality productions.",
+    "aboutUsTeamTitle.label": "Het team behind the brand studio",
+    "careerText.label": "The Brand Studio is a young innovative company with talented and ambitious employees. Important within The Brand Studio is a creative cheerful mind, a driven personality, a dose of willpower and a great empathy.We are always looking for people within this profile who want to join our team.\n\nDo you recognize yourself in this? Please contact us via",
+    "contactTel.label": "0031 6 17568174",
+    "contactText.label": "Curious about our full service concepts? Ambitious to start your own brand or to expand your brand? Please contact us"
 }

@@ -1,0 +1,14 @@
+.career .tii-container {
+    margin:0 0 50px 0;
+}
+
+.career .tii-container .tii-text {
+    white-space: pre-line;
+}
+
+.career-title {
+    font-family: 'Notera';
+    font-size:50px;
+    text-align: center;
+    padding:0 20px 20px;
+}

@@ -1,12 +1,12 @@
-.plLeftComponent {
+.plRightComponent {
     display:flex;
     flex-direction: row;
     position: relative;
     height:55vh;
-
+    margin:40px 0;
 }
 
-.plLeftComponent-title {
+.plRightComponent-title {
     color:white;
     font-family:'FuturaBold';
     text-transform:uppercase;
@@ -16,7 +16,7 @@
     
 }
 
-.plLeftComponent-list {
+.plRightComponent-list {
     color:white;
     text-align:center;
     font-family:'FuturaMedium';
@@ -27,22 +27,23 @@
     line-height: 15px;
 }
 
-.plLeftImage img {
+.plRightImage img {
     width:100%
 }
 
-.een {
-    background-color:black;
+.plRightComponent .een {
     height:35vh;
     width:80vw;
+    right:0;
+    position:absolute;
 }
 
-.twee {
+.plRightComponent .twee {
     background-color:transparent;
     height:30vh;
     width:60vw;
     border:8px solid white;
     position: absolute;
-    right:10vw;
+    left:10vw;
     top:16vh;
 }

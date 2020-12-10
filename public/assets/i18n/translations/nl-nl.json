@@ -16,5 +16,78 @@
     "serviceSubtitle2.label": "Brand, retail & licentie-producties",
     "serviceText2.label": "We bedenken vernieuwende private label concepten & producties voor retailers en brands indien gewenst inclusief collabs met talenten. We nemen het tijdrovende proces van creatie, productontwikkeling, sourcing, productie en distributie van nieuwe producten uit handen. Onze private label expertise en licentie-producties hebben we opgebouwd binnen de branches jewellery, fashion, body & swimwear, beauty & fragrance, personal care, home essentials en beauty & fashion accessoires.",
     "serviceSubtitle3.label": "Premium concepten",
-    "serviceText3.label": "Voor onze relaties bedenken en produceren we creatieve give aways concepten ter stimulering van de verkoop. Maar ook business-to-business gifts, gifts voor loyalty programs en private label producties voor events. Binnen de concepten ligt de focus op de target doelgroep, budget, timing en de tailor-made realisaties van de premiums."
+    "serviceText3.label": "Voor onze relaties bedenken en produceren we creatieve give aways concepten ter stimulering van de verkoop. Maar ook business-to-business gifts, gifts voor loyalty programs en private label producties voor events. Binnen de concepten ligt de focus op de target doelgroep, budget, timing en de tailor-made realisaties van de premiums.",
+    "privateLabelJewelleryList.label": [
+        "ARMBANDEN ",
+        "KETTINGEN",
+        "RINGEN",
+        "FIJNE OORBELLEN",
+        "STATEMENT OORBELLEN",
+        "EARCUFFS",
+        "ENKELBANDJES",
+        "BEDELS",
+        "HORLOGES"
+    ],
+    "privateLabelJewelleryTitle.label": "Jewellery",
+    "privateLabelFashionTitle.label": "Fashion",
+    "privateLabelFashionList.label": [
+        "jurkjes",
+        "rokjes",
+        "tops",
+        "shirts",
+        "blouses",
+        "truien",
+        "vesten",
+        "broeken",
+        "jassen",
+        "blazers",
+        "tassen",
+        "riemen"
+    ],
+    "privateLabelBeautyTitle.label": "Beauty",
+    "privateLabelBeautyList.label": [
+        "parfum",
+        "make up",
+        "verzorging",
+        "bad & body",
+        "supplementen",
+        "beauty accessoires"
+    ],
+    "privateLabelSwimwearTitle.label": "body & swimwear",
+    "privateLabelSwimwearList.label": [
+        "homewear",
+        "tops",
+        "shorts",
+        "bodysuits",
+        "broekjes",
+        "sleepingmasks",
+        "badpakken",
+        "bikini's"
+    ],
+    "privateLabelHomeTitle.label": "home essentials",
+    "privateLabelHomeList.label": [
+        "textiel",
+        "geurkaarsen",
+        "huisparfum",
+        "opbergers",
+        "kussens",
+        "plaids",
+        "frame pictures",
+        "toilettasjes",
+        "handdoeken"
+    ],
+    "privateLabelBrandedTitle.label": "branded verpakkingen",
+    "privateLabelBrandedList.label": [
+        "kwalitatieve kaartjes",
+        "cadeau doosjes van diverse materialen",
+        "fluwelen, jutte en zijde zakjes",
+        "sfeer displays",
+        "incl. product & sfeerfotografie"
+    ],
+    "aboutUsTitle.label": "About us",
+    "aboutUsText.label": "The brand studio is een private label divisie van MY Jewellery. Sharon Hilgers (founder MY Jewellery) is creatief director en heeft een sterk gevoel voor commercieel succesvolle trends & producties. Met elkaar vormen we een complementair team bestaande uit creatieve specialisten op ieder zijn vakgebied jewellery, beauty & frangrance, fashion, body & swimwear, home essentials en accessoires. Onze project managers ontzorgen het complete proces en zorgen voor goed gestroomlijnde en kwalitatieve producties.",
+    "aboutUsTeamTitle.label": "Het team behind the brand studio",
+    "careerText.label": "The Brand Studio is een jong innovatief bedrijf met talentvolle en ambitieuze medewerkers. Belangrijk binnen The Brand Studio is een creatieve vrolijke mind, een gedreven persoonlijkheid, een dosis wilskracht en een groot inlevingsvermogen. Wij zijn altijd op zoek naar mensen binnen dit profiel die ons team willen komen versterken.\n\nHerken jij jezelf hierin? Neem dan contact met ons op via",
+    "contactTel.label": "0031 6 17568174",
+    "contactText.label": "Benieuwd naar onze full service concepten? Ambities om een eigen brand te starten of jouw brand te laten groeien? Neem dan gerust contact met ons op."
 }

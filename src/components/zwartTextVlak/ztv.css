@@ -1,0 +1,25 @@
+.ztv {
+    width:100%;
+    padding:0 0 30px 0;
+    background-color:black;
+    color:white;
+    font-family:'FuturaMedium';
+}
+
+.ztv-title{
+    font-family:'Notera';
+    font-size:50px;
+    text-align:center;
+    padding:20px;
+    color:rgb(207,191,166);
+}
+
+.ztv-vlak {
+    border:7px solid white;
+    margin:0 10px;
+}
+
+.ztv-text {
+    font-size:12px;
+    padding:20px 10px;
+}
