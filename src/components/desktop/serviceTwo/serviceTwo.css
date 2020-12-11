@@ -1,0 +1,46 @@
+.serviceTwo {
+    overflow: hidden;
+    padding:20px 15vw;
+    box-sizing: border-box;
+}
+
+.serviceTwo-container {
+    background:url('../../../assets/images/service/Service2.png');
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.serviceTwo-text-container {
+    border:10px solid white;
+    margin:auto auto;
+    display:block;
+    padding:50px;
+    background:rgb(207,191,166);
+    width:50%;
+}
+
+.serviceTwo-title {
+    font-family: 'FuturaBold';
+    font-size:20px;
+    text-transform:uppercase;
+    margin-bottom: 30px;
+}
+
+.serviceTwo-text {
+    font-family:'FuturaMedium';
+    font-weight:600;
+}
+
+
+
+@media (min-width:768px) and (max-width:1100px){
+    .serviceTwo {
+        overflow: hidden;
+        padding: 20px 9vw;
+        box-sizing: border-box;
+    } 
+}

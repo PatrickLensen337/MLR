@@ -31,3 +31,26 @@
     margin-top:5px;
     padding:0 5px 0 0;
 }
+
+@media (min-width:1200px){
+    .tii-container {
+        width: 100vw;
+        height: 50vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding:0;
+    }
+
+    .tii-textContainer {
+        margin:50px;
+    }
+
+    .tii-imageBack {
+        overflow: hidden;
+    }
+
+    .tii-imageBack img {
+        display: none;
+        visibility: hidden;
+    }
+}

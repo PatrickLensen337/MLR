@@ -10,10 +10,10 @@ import { ReactComponent as TBSLogo } from '../../logo.svg';
 
 const Navbar = ({ t }) => {
     const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-device-width: 1224px)'
+        query: '(min-device-width: 1100px)'
     })
     const isTabletOrMobileDevice = useMediaQuery({
-        query: '(max-device-width: 1224px)'
+        query: '(max-device-width: 1099px)'
     })
 
     return (

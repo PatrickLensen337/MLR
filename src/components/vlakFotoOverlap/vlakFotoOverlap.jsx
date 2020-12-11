@@ -18,7 +18,7 @@ const vlakFotoOverlap = ({ t, title, subtitle, text, image }) => {
                 </div>
             </div>
             <div className="vfo-image">
-                <img src={image}></img>
+                <img src={image} alt={title}></img>
             </div>
         </div>
     )

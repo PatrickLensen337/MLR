@@ -15,9 +15,9 @@ const LanguageSelector = () => {
     return (
         <div onChange={changeLanguage} className="switcher">
             <input type="radio" id="switchDutch" value="nl-nl" name="language" defaultChecked />
-            <label className="languageSwitchLabel" for="switchDutch">NL</label>
+            <label className="languageSwitchLabel" htmlFor="switchDutch">NL</label>
             <input type="radio" id="switchEnglish" value="en" name="language" />
-            <label className="languageSwitchLabel" for="switchEnglish">EN</label>
+            <label className="languageSwitchLabel" htmlFor="switchEnglish">EN</label>
         </div>
     )
 }

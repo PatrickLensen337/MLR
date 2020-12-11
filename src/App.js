@@ -10,14 +10,9 @@ import AboutUs from './pages/about/about'
 import Careers from './pages/career/career'
 import Contact from './pages/contact/contact'
 import Play from './pages/play/play'
-import { Route, Switch, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion'
-import { ReactComponent as TBSLogo } from './logo.svg'
+import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
-  const location = useLocation();
-
-
   return (
     <Suspense fallback={null}>
       <Navbar />

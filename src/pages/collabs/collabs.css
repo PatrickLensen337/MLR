@@ -37,3 +37,10 @@
     align-items: center;
     padding:30px 0 0 0;
 }
+
+@media (min-width:768px){
+    .collabs-title {
+        font-size:80px;
+        margin:30px 0;
+    }
+}

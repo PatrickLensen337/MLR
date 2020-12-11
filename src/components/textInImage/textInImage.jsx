@@ -8,7 +8,7 @@ const TextInImage = ({ t, title, text, image, linkje, linkadres }) => {
     return (
         <div className="tii-container">
             <div className="tii-imageBack">
-                <img src={image} />
+                <img src={image} alt={title} />
             </div>
             <div className="tii-textContainer">
                 <div className="tii-title">

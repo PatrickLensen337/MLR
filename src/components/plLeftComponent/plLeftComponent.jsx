@@ -46,7 +46,7 @@ const PlLeftComponent = ({ title, list, image, color }) => {
                 transition={{ ease: "easeOut", duration: 1, when: "beforeChildren", staggerChildren: 0.5 }}
             >
                 <div className="plLeftImage">
-                    <img src={image} />
+                    <img src={image} alt="slide afbeelding" />
                 </div>
             </motion.div>
         </div>

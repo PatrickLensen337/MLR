@@ -1,15 +1,12 @@
 import React from 'react'
-import SLTR from '../../components/SLTR/sltr'
-import SLTL from '../../components/SLTL/sltl'
+import ServiceTwo from '../../components/desktop/serviceTwo/serviceTwo'
 
 
 
 const Play = () => {
     return (
         <div className="play">
-           <SLTR/>
-            <SLTL/>
-           <SLTR/>
+            <ServiceTwo />
         </div>
     )
 }

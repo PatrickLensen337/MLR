@@ -1,0 +1,170 @@
+.sltr {
+    box-sizing: border-box;
+}
+.sltr-container {
+    width:100vw;
+    height:90vh;
+    overflow:hidden;
+    position: relative;
+}
+
+.sltr-panel-container {
+    width:inherit;
+    height:inherit;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sltr-panel {
+    height:70vh;
+    width:55vw;
+    background-color:black;
+    box-sizing: border-box;
+    position:relative;
+}
+
+.sltr-panel-container img {
+    max-width: 21vw;
+    display: block;
+    margin: auto 0;
+    position: absolute;
+    left: 38vw;
+    top: 60%;
+    transform: translateY(-50%) !important;
+    border: 15px solid white;
+    background-color: white;
+}
+
+.sltr-title {
+    font-family: 'Notera';
+    font-size:80px;
+    padding:10px 50px 10px 30px;
+    color:white;
+    text-align:right;
+}
+
+.sltr-readmore {
+    font-family:'FuturaMedium';
+    font-size:12px;
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-weight:700;
+}
+
+.sltr-readmore svg {
+    width:80px;
+    height:80px;
+}
+
+img.landRight {
+    max-width: 34vw;
+    left: 34vw;
+}
+
+
+.collabs .sltr-title {
+    font-family: 'FuturaBold';
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transform: translateX(-30%);
+}
+
+.collabs .sltr-subtitle {
+    font-family: 'FuturaMedium';
+    font-size: 15px;
+    letter-spacing: 3px;
+    transform: translateX(-12%);
+    color: white;
+    text-transform: uppercase;
+}
+
+.collabs .sltr-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width:78vw;
+}
+
+.collabs .sltr-panel-container img {
+    max-width: 37vw;
+    top: 50%;
+    transform: translateY(-50%)!important;
+    z-index: 2;
+}
+
+.collabs img.landRight {
+    left: 54vw;
+}
+
+.privateLabel .text-cont {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 50%;
+    width: 50%;
+    transform: translate(-25%,20%);
+}
+
+.privateLabel .sltr-title {
+    font-family: 'FuturaBold';
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.privateLabel .sltr-subtitle {
+    font-family: 'FuturaMedium';
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.privateLabel .sltr-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width:78vw;
+}
+
+.privateLabel .sltr-panel-container img {
+    max-width: 25vw;
+    top: 50%;
+    transform: translateY(-50%)!important;
+    z-index: 2;
+}
+
+.privateLabel img.landRight {
+    left: 54vw;
+}
+
+@media (min-width:700px){
+    .portRight {
+        width:23vw;
+    }
+
+    .privateLabel .portRight {
+        width:25vw;
+        left:60vw !important;
+    }
+}
